@@ -27,8 +27,8 @@ function toggleDarkMode() {
 
 <template>
     <div>
-        <Button label="Light" @click="disableDarkMode"></Button>
-        <Button label="Dark" @click="enableDarkMode"></Button>
+        <Button label="Light" icon="pi pi-sun" @click="disableDarkMode"></Button>
+        <Button label="Dark" icon="pi pi-moon" iconPos="right" @click="enableDarkMode"></Button>
         <Button label="Toggle" @click="toggleDarkMode"></Button>
         <DatePicker class="w-56"></DatePicker>
         <Select

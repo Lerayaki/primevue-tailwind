@@ -7,6 +7,8 @@
 @import "./primevue/tailwind.css";
 @import "tailwindcss/utilities";
 
+@import "primeicons/primeicons.css";
+
 @layer base {
     html {
         @apply h-full min-h-full;
